@@ -20,7 +20,7 @@ async function playGuessingGame() {
             break; // Exit the loop if guess is correct
         }
         else {
-            console.log("Ooh! Not quite. The number was {randomNum}. You have {num_guesses - (i + 1)} guesses left.");
+            console.log("Ooh! Not quite. The number was", { randomNum });
         }
     }
 }
