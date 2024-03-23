@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 
 const num_guesses = 3; // Number of guesses allowed
